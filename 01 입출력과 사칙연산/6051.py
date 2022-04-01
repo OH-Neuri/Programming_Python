@@ -1,2 +1,2 @@
-a = int(input())
-print(bool(a))
+a, b= map(int, input().split())
+print(a!=b)
