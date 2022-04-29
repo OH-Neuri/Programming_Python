@@ -9,5 +9,6 @@ for i in mon[N::-1]:
     if K>0:
         cnt+=K//i
         K%=i
+
 print(cnt)
 
