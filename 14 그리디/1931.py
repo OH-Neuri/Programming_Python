@@ -7,7 +7,7 @@ list = []
 for i in range(n):
   s,e = map(int,input().split())
   list.append([s,e])
-list.sort(key = lambda x : (x[1],x[0]))
+list.sort(key = lambda x : (x[1],x[0]))  #먼저 x[1]에 대해서 내부 순서 바꾸기 , 그다음 x[0] 순서로
 
 cnt = 0
 k = 0
