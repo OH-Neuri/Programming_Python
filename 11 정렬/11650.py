@@ -9,3 +9,5 @@ for i in range(n):
 a.sort(key= lambda x: (x[0],x[1]))
 for i in range(n):
     print(a[i][0], a[i][1])
+
+# sort(key= lambda x: (x[0],x[1]): 요소들 정렬, 0번째 인덱스 순으로 정렬 후 중복시 1번쨰 인덱스로 정렬
