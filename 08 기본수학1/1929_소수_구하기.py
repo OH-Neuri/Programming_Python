@@ -8,5 +8,4 @@ for i in range(M,N):
         if i%j==0:
             if i==j:
                 print(i)
-                break
             break
