@@ -1,13 +1,6 @@
 import sys
 input = sys.stdin.readline
-'''
-N=int(input())
-Nlist=list(map(int,input().split()))
-M=int(input())
-Mlist=list(map(int,input().split()))
-for i in range(M):
-    print(Nlist.count(Mlist[i]), end=' ')
-'''
+
 n = int(input())
 a = list(map(int, input().split()))
 a.sort()
