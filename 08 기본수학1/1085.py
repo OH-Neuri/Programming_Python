@@ -2,7 +2,9 @@ import sys
 input = sys.stdin.readline
 
 x, y, X, Y = map(int,input().split())
-if (X-x)>(Y-y):
-    print(Y-y)
-else:
-    print(X-x)
+
+print(min(x, y, (X-x), (Y-y)))
+
+
+# print( min(x, y, (X-x), (Y-y))
+# min, max 는 () 안에 있는 값들중 계산
