@@ -2,11 +2,10 @@ import sys
 input = sys.stdin.readline
 
 num=[x for x in map(int,input().split())]
-num1=num.sort()
-num2=num.sort(reverse=True)
-if num==num1:
+
+if num==sorted(num):
     print('ascending')
-elif num==num2:
+elif num==sorted(num,reverse=True):
     print('descending')
 else:
     print('mixed')
