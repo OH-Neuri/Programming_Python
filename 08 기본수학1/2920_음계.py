@@ -9,3 +9,4 @@ elif num==sorted(num,reverse=True):
     print('descending')
 else:
     print('mixed')
+
