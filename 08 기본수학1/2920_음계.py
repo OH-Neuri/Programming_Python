@@ -10,3 +10,5 @@ elif num==sorted(num,reverse=True):
 else:
     print('mixed')
 
+
+
